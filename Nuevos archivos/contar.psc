@@ -1,4 +1,4 @@
-Algoritmo contando-repetir
+Algoritmo contando_repetir
 	Escribir 'Dime un número'
 	Leer veces
 	num <- 0

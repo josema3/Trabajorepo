@@ -1,4 +1,4 @@
-Algoritmo contarvocales2
+Algoritmo ocultar_a
 	Escribir 'Dime una frase profunda'
 	Leer frase
 	// Oculto las "aes"
