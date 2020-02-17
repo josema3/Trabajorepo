@@ -3,18 +3,21 @@ Algoritmo media_aritmetica
 	Escribir 'Dame el tamaño del vector'
 	Leer n
 	Dimension vector[n]
-	Para x<-1 Hasta n Hacer
-		vector[x] <- azar(10)
+	
+	Para x=1 Hasta n Hacer
+		vector[x] = azar(10)
 	FinPara
+	
 	Para a=1 Hasta n Hacer
 		Escribir vector[a]
 	FinPara
-	acum <- 0
-	Para i<-1 hasta num Hacer
-		acum<- ACUM+n
+	acum <- n
+	
+	Para i<-1 hasta n Hacer
+		acum <- acum+n
 		
 	FinPara
-	prom<- acum/num
+	prom<- acum/n
 	Escribir  "el promedio es", prom
 FinAlgoritmo
 
